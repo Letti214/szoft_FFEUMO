@@ -11,7 +11,6 @@ namespace Adatkotes
         {
             InitializeComponent();
             countryDataBindingSource.DataSource = countryList;
-            //dataGridView1.DataSource = countryDataBindingSource;
         }
 
         private void Form1_Load(object sender, EventArgs e)
